@@ -6,6 +6,12 @@ import { connectDB } from './lib/db.js';
 import cookieParser from "cookie-parser";
 import cors from 'cors';
 import { app, server } from "./lib/socket.js";
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 dotenv.config();
 // console.log("ENV TEST:", {
