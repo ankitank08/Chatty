@@ -19,22 +19,6 @@ A full-stack real-time chat application built with **React**, **Node.js**, **Exp
 
 ---
 
-## 📁 Project Structure
-
-
-Chatty/
-├── backend/ # Express server & APIs
-│ ├── routes/
-│ ├── lib/
-│ ├── .env
-│ └── index.js
-├── frontend/ # React + Vite frontend
-│ ├── src/
-│ ├── public/
-│ └── vite.config.js
-├── README.md
-└── package.json
-
 
 
 ---
