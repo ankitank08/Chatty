@@ -37,9 +37,7 @@ const PORT = process.env.PORT;
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the backend get API");
-});
+
 
 console.log("Server is running in " + process.env.NODE_ENV + " mode");
 if (process.env.NODE_ENV === "production") {
